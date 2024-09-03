@@ -1,0 +1,96 @@
+body{
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 100%); */
+    /* background-color: #bf17b7; */
+    background-image: url(./img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+    font-family:cursive;
+}
+
+.demo{
+    margin: 150px;
+    padding: 150px;
+    display: block;
+    white-space: pre;
+}
+
+#form{
+    width: 500px;
+    margin: 10vh auto 10vh auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color:#e8ebef ;
+    font-family:serif;
+
+}
+
+/* #sumbit{
+    background-color:#043267 ;
+    color: white;
+    border: 1px soild #043267 ;
+    padding: 10px;
+    margin:  20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+} */
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px #043267;
+    
+    padding: 25px;
+    
+}
+#gender{
+    margin: 25px;
+
+}
+#yes{
+    margin: 30px;
+}
+
+.radio{
+    margin: 10px;
+    padding-left: 50px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px soild ;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+button a{
+    /* 
+ width: 50%;
+  border-radius: 10px;
+   border:blueviolet ;
+   box-shadow: darkmagenta; */
+   margin: 30px;
+   text-align: center;
+   background-color: blueviolet;
+   border-radius: 10px;
+   text-decoration: none;
+   color: aliceblue;
+  
+  
+}
+

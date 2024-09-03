@@ -1,0 +1,98 @@
+body{
+    background-color:  #733588;
+}
+
+.container{
+    height: 100vh;
+    margin: 25px;
+    background-color:  #e0e1f421;
+    border-radius: 10px;
+    padding: 20px;
+    /* background:transparent; */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border: #3a033a;
+  
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    border: #3a033a;
+}
+ul a{
+    display: block;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 0px;
+    padding: 0px; */
+}
+
+.img img{
+    width: 600px;
+    padding-right: 30px;
+
+}
+.ui h1{
+    font-weight:900;
+    font-size :35px;
+    color: rgb(203, 126, 11);
+    /* text-align: center; */
+    padding-left: 300px;
+    
+    
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.ui h2{
+    font-weight:900;
+    font-size :35px;
+    color: rgb(224, 150, 58);
+    /* text-align: center; */
+    padding-left: 370px;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;  
+}
+.ui #h2{
+    padding-left: 330px;
+  
+}
+.ui button a{
+    border-radius: 10px;
+    background-color:#3a033a;
+    box-shadow: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 50%;
+    text-decoration: none;
+
+   
+}
+.ui p{
+    font-weight:500;
+    font-size :25px;
+    align-content: end;
+    padding-left: 170px;
+    margin-top: 0px;
+    width: 500px;
+    text-align: center;
+}
+
+
+  

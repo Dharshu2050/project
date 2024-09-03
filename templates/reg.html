@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/static/reg.css">
+</head>
+
+<body>
+
+
+    <form action="/sub" id="form" name="demo" onsubmit="name()" method="post">
+        <h1>Workshop Registration Form</h1>
+
+        <div class="input-group">
+            <img src="" alt="">
+            <label for="name">1.Full Name</label>
+            <input type="text" placeholder="First Name" name="name1" id="First" required>
+            <input type="text" placeholder="Last Name" name="name2" required>
+
+        </div>
+
+        <label for="gender" id="gender">2.Gender</label>
+        <input type="radio" name="gender" value="male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+
+
+        <div class="input-group">
+            <label for="e-mail">2.Email Address</label>
+            <input type="e-mail" name="Email" id="" placeholder="Email Address" required>
+        </div>
+        <div class="input-group">
+            <label for="phonenumber">3.Phonenumber</label>
+            <input type="text" placeholder="Phonenumber" name="phonenumber" required>
+        </div>
+
+
+        <div class="input-group">
+            <label for="text">4.Address</label>
+            <input type="text-area" name="Address" placeholder="Address">
+            <input type="text" name="name" placeholder="city">
+        </div>
+
+
+        <div class="input-group">
+            <label for="name">5.School/Collage Name:</label>
+            <input type="text" placeholder="School/Collage Name" name="sc-name">
+        </div>
+
+        <div class="input-group">
+            <label for="year">6.Current Grade/Year:</label>
+            <input type="text" name="year" id="" placeholder="Current Grade/Year">
+        </div>
+
+
+        <label for="text" id="yes">7.Do you have a computer or smartphone with internet ? </label>
+        <input type="radio" name="yes" id="" class="redio">
+        <label for="">Yes</label>
+        <input type="radio" name="no" id="" class="radio">
+        <label for="">No</label>
+        <br>
+        <button id="sub"><a href="#">Sumbit</a></button>
+
+        <!-- <button type="button">Sumbit</button> -->
+    </form>
+
+
+
+</body>
+
+</html>
